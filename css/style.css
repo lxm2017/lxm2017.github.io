@@ -1463,7 +1463,7 @@ pre .keyword, pre .javascript .function {
 		font-size: 25px;
 		font-weight: bold;
 		position: fixed;
-		right: 100px;
+		right: 10%;
 		bottom: 3%;
 		z-index: 1000;
 	}
@@ -1475,7 +1475,7 @@ pre .keyword, pre .javascript .function {
 		font-size: 25px;
 		font-weight: bold;
 		position: fixed;
-		right: 100px;
+		right: 10%;
 		bottom: 3%;
 		z-index: 1000;
 	}
