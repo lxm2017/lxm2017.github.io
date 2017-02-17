@@ -1454,22 +1454,6 @@ pre .keyword, pre .javascript .function {
 		right: 11%;
 		bottom: 3%;
 		z-index: 1000;
-		font-size: 36px;
-		font-family: Cursive;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#toTop {
-		font-family: Cursive;
-		font-size: 36px;
-		font-weight: bold;
-		position: fixed;
-		right: 11%;
-		bottom: 3%;
-		z-index: 1000;
-		font-size: 36px;
-		font-family: Cursive;
 	}
 }
 
@@ -1482,8 +1466,6 @@ pre .keyword, pre .javascript .function {
 		right: 10%;
 		bottom: 3%;
 		z-index: 1000;
-		font-size: 36px;
-		font-family: Cursive;
 	}
 }
 
@@ -1496,8 +1478,6 @@ pre .keyword, pre .javascript .function {
 		right: 10%;
 		bottom: 3%;
 		z-index: 1000;
-		font-size: 36px;
-		font-family: Cursive;
 	}
 }
 
