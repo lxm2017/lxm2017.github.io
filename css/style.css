@@ -437,17 +437,6 @@ body {
 }
 
 @media screen and (max-width: 479px) {
-	#toTop {
-		font-family: Cursive;
-		font-size: 36px;
-		font-weight: bold;
-		position: fixed;
-		right: 3%;
-		bottom: 3%;
-		z-index: 1000;
-		font-size: 36px;
-		font-family: Cursive;
-	}
 	#search-form-wrap {
 		width: 100%;
 		right: -100%;
@@ -774,17 +763,6 @@ a.article-title:hover {
 }
 
 @media screen and (min-width: 768px) {
-	#toTop {
-		font-family: Cursive;
-		font-size: 36px;
-		font-weight: bold;
-		position: fixed;
-		right: 11%;
-		bottom: 3%;
-		z-index: 1000;
-		font-size: 36px;
-		font-family: Cursive;
-	}
 	#article-nav {
 		margin: 50px 0;
 	}
@@ -1467,17 +1445,47 @@ pre .keyword, pre .javascript .function {
 	display: inline-block;
 }
 
-/* #toTop { */
-/* 	font-family: Cursive; */
-/* 	font-size: 36px; */
-/* 	font-weight: bold; */
-/* 	position: fixed; */
-/* 	right: 3%; */
-/* 	bottom: 3%; */
-/* 	z-index: 1000; */
-/* 	font-size: 36px; */
-/* 	font-family: Cursive; */
-/* } */
+@media screen and (min-width: 768px) {
+	#toTop {
+		font-family: Cursive;
+		font-size: 36px;
+		font-weight: bold;
+		position: fixed;
+		right: 11%;
+		bottom: 3%;
+		z-index: 1000;
+		font-size: 36px;
+		font-family: Cursive;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#toTop {
+		font-family: Cursive;
+		font-size: 36px;
+		font-weight: bold;
+		position: fixed;
+		right: 11%;
+		bottom: 3%;
+		z-index: 1000;
+		font-size: 36px;
+		font-family: Cursive;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	#toTop {
+		font-family: Cursive;
+		font-size: 36px;
+		font-weight: bold;
+		position: fixed;
+		right: 5%;
+		bottom: 3%;
+		z-index: 1000;
+		font-size: 36px;
+		font-family: Cursive;
+	}
+}
 
 #toTop>a {
 	text-decoration: none;
