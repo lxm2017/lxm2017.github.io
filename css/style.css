@@ -1460,10 +1460,10 @@ pre .keyword, pre .javascript .function {
 @media screen and (max-width: 479px) {
 	#toTop {
 		font-family: Cursive;
-		font-size: 20px;
+		font-size: 25px;
 		font-weight: bold;
 		position: fixed;
-		right: 10%;
+		right: 100px;
 		bottom: 3%;
 		z-index: 1000;
 	}
@@ -1472,10 +1472,10 @@ pre .keyword, pre .javascript .function {
 @media screen and (min-width: 480px) and (max-width: 767px) {
 	#toTop {
 		font-family: Cursive;
-		font-size: 20px;
+		font-size: 25px;
 		font-weight: bold;
 		position: fixed;
-		right: 10%;
+		right: 100px;
 		bottom: 3%;
 		z-index: 1000;
 	}
