@@ -62,4 +62,8 @@ $(function() {
 	for ( var x in htmlMap) {
 		$("#main").append(htmlMap[x])
 	}
+	for ( var title in collectionList) {
+		$("#collection").append(
+				"<a href='" + collectionList[title] + "'>" + title + "</a>");
+	}
 })
