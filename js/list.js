@@ -1,7 +1,14 @@
+//图片列表
 var imgList = {
 	"2017-01" : [ [ "222.jpg", "风景" ], [ "333.jpg", "风景" ] ],
 	"2017-02" : [ [ "333.jpg", "花草" ], [ "444.jpg", "花草" ] ]
 };
+
+// 收藏的文章列表，左边是标题，右边是地址
+var collectionList = {
+	"ui设计细节及技巧" : "http://www.xueui.cn/design-theory/ui-design-details-and-skills.html"
+};
+
 
 var simpleMonthList = {
 	"01" : "Jan",
