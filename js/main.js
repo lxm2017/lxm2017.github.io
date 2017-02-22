@@ -9,9 +9,7 @@ $(function() {
 	for ( var time in imgList) {
 		var strs = time.split("-");
 		var year = strs[0];
-		var smonth = simpleMonthList[strs[1]];
 		var fmonth = fullMonthList[strs[1]];
-		var day = strs[2];
 		var imgs = imgList[time];
 
 		var html = "<section class='archives-wrap'><div class='archive-year-wrap'><div class='archive-year'>"
@@ -23,9 +21,7 @@ $(function() {
 			htmlMap[year] += "<article class='archive-article archive-type-post'><div class='archive-article-inner'><header class='archive-article-header'><div class='archive-article-date'><time datetime='"
 					+ time
 					+ "' itemprop='datePublished'>"
-					+ smonth
-					+ " "
-					+ day
+					+ fmonth
 					+ "</time></div>";
 		} else {
 			htmlMap[year] += "<article  class='archive-article archive-type-post'><div class='archive-article-inner'><header class='archive-article-header'><div id='"
@@ -34,9 +30,7 @@ $(function() {
 					+ "' class='archive-article-date'><time datetime='"
 					+ time
 					+ "' itemprop='datePublished'>"
-					+ smonth
-					+ " "
-					+ day
+					+ fmonth
 					+ "</time></div>";
 
 			var space = "";
