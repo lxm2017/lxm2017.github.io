@@ -64,6 +64,6 @@ $(function() {
 	}
 	for ( var title in collectionList) {
 		$("#collection").append(
-				"<li><a href='" + collectionList[title] + "'>" + title + "</a></li>");
+				"<li><a target='_blank' href='" + collectionList[title] + "'>" + title + "</a></li>");
 	}
 })
