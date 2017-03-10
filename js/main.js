@@ -55,7 +55,7 @@ $(function() {
 		htmlMap[year] += "</header></div></article>";
 		if (lastImgYear != year && lastImgYear != null) {
 			htmlMap[lastImgYear] += "</div></section>";
-			$("#main").append(htmlMap[x]);
+			$("#main").append(htmlMap[lastImgYear]);
 		}
 		lastImgMonth = fmonth;
 		lastImgYear = year;
