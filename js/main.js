@@ -6,9 +6,9 @@ $(function() {
 	var htmlMap = {};
 	var lastImgYear;
 	var lastImgMonth;
-	var i = 0;
+	var ii = 0;
 	for ( var time in imgList) {
-		i++;
+		ii++;
 		var strs = time.split("-");
 		var year = strs[0];
 		var fmonth = fullMonthList[strs[1]];
@@ -59,7 +59,7 @@ $(function() {
 			htmlMap[lastImgYear] += "</div></section>";
 			$("#main").append(htmlMap[lastImgYear]);
 		}
-		if (i == Object.getOwnPropertyNames(imgList).length) {
+		if (ii == Object.getOwnPropertyNames(imgList).length) {
 			htmlMap[year] += "</div></section>";
 			$("#main").append(htmlMap[year]);
 		}
