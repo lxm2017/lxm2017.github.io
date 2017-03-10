@@ -54,14 +54,13 @@ $(function() {
 		}
 		htmlMap[year] += "</header></div></article>";
 		if (lastImgYear != year && lastImgYear != null) {
-			htmlMap[lastImgYear] += "</div></section>"
+			htmlMap[lastImgYear] += "</div></section>";
+			$("#main").append(htmlMap[x]);
 		}
 		lastImgMonth = fmonth;
 		lastImgYear = year;
 	}
-	for ( var x in htmlMap) {
-		$("#main").append(htmlMap[x])
-	}
+	
 	for ( var title in collectionList) {
 		$("#collection").append(
 				"<li><a target='_blank' href='" + collectionList[title] + "'>" + title + "</a></li>");
