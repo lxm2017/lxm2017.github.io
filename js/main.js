@@ -59,7 +59,7 @@ $(function() {
 			htmlMap[lastImgYear] += "</div></section>";
 			$("#main").append(htmlMap[lastImgYear]);
 		}
-		if (i == imgList.length) {
+		if (i == Object.getOwnPropertyNames(imgList).length) {
 			htmlMap[year] += "</div></section>";
 			$("#main").append(htmlMap[year]);
 		}
