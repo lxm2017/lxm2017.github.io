@@ -6,7 +6,7 @@ $(function() {
 	var htmlMap = {};
 	var lastImgYear;
 	var lastImgMonth;
-	int i = 0;
+	var i = 0;
 	for ( var time in imgList) {
 		i++;
 		var strs = time.split("-");
